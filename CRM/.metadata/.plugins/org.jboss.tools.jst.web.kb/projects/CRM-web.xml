@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects>
+  <project name="CRM-ejb"/>
+ </depends-on-projects>
+ <used-by-projects/>
+ <paths>
+  <path value="/CRM-web/src/main/webapp/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="CRM-web"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/DELL/.m2/repository/javax/javaee-api/7.0/javaee-api-7.0.jar"/>
+  <path value="C:/Users/DELL/.m2/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar"/>
+  <path value="C:/Users/DELL/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
+  <path value="C:/Users/DELL/.m2/repository/org/primefaces/primefaces/5.3/primefaces-5.3.jar">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-5.3.jar/meta-inf/faces-config.xml" project="CRM-web"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-5.3.jar/meta-inf/primefaces-p.taglib.xml" project="CRM-web"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-5.3.jar/meta-inf/primefaces-pm.taglib.xml" project="CRM-web"/>
+    </library>
+   </libraries>
+  </path>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="batch-verification"/>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="24" name="%0" offset="510" path="%1"/>
+   <linked-el length="15" name="%0" offset="758" path="%1"/>
+   <linked-el length="21" name="%2" offset="983" path="%3"/>
+   <linked-el length="21" name="%4" offset="983" path="%3"/>
+   <linked-el length="24" name="%5" offset="510" path="%1"/>
+   <linked-el length="20" name="%5" offset="690" path="%1"/>
+   <linked-el length="29" name="%5" offset="564" path="%1"/>
+   <linked-el length="15" name="%5" offset="758" path="%1"/>
+   <linked-el length="24" name="%6" offset="510" path="%1"/>
+   <linked-el length="20" name="%6" offset="690" path="%1"/>
+   <linked-el length="29" name="%6" offset="564" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="/CRM-web/src/main/webapp/todos.xhtml" value="%1"/>
+  <alias path="/CRM-web/pom.xml" value="%3"/>
+  <alias
+   path="/CRM-ejb/src/main/java/tn/esprit/CRM/persistence/Todo.java" value="%0"/>
+  <alias path="project.artifactId" value="%2"/>
+  <alias path="project" value="%4"/>
+  <alias path="todoBean" value="%5"/>
+  <alias
+   path="/CRM-web/src/main/java/tn/esprit/CRM/presentation/mbeans/TodoBean.java" value="%6"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://xmlns.jcp.org/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://xmlns.jcp.org/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+  <uri value="http://primefaces.org/ui">
+   <prefix>p</prefix>
+  </uri>
+ </uris>
+</kb-project>

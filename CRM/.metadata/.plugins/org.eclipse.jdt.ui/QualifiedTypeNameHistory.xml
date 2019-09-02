@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+<fullyQualifiedTypeName name="javax.persistence.InheritanceType"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.Inheritance"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.Task"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.Shopping_List"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.Quotation"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.Conge"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.Abonnement"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.Proposition"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.Category"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.Brand"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.Answer"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.Bank_Account"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.Product"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.Bill"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.Basket"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.Calendar"/>
+<fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.Store"/>
+<fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.Localisation"/>
+<fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.Staff"/>
+<fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.Rate"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.RatePk"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.Type_reclamation"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.Admin_type"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.Type_surfer"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.Status_type"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.Priority_type"/>
+<fullyQualifiedTypeName name="javax.persistence.Enumerated"/>
+<fullyQualifiedTypeName name="javax.persistence.EnumType"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.services.TodoServiceRemote"/>
+<fullyQualifiedTypeName name="javax.naming.Context"/>
+<fullyQualifiedTypeName name="javax.naming.InitialContext"/>
+<fullyQualifiedTypeName name="tn.esprit.CRM.persistence.User"/>
+<fullyQualifiedTypeName name="javax.ejb.Stateful"/>
+<fullyQualifiedTypeName name="javax.naming.NamingException"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,5 @@
+tn\esprit\CRM\presentation\mbeans\Holiday.class
+tn\esprit\CRM\presentation\mbeans\RepeatPaginator.class
+tn\esprit\CRM\presentation\mbeans\MessageBean.class
+tn\esprit\CRM\presentation\mbeans\CongeBean.class
+tn\esprit\CRM\presentation\mbeans\TodoBean.class

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="478.0" prefWidth="802.0" style="-fx-background-color: #05071F;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.esprit.CRM.gui.AfficherStaffController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#5a6272" height="353.0" layoutX="593.0" layoutY="46.0" opacity="0.49" smooth="false" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="195.0" />
+      <TableView fx:id="table" layoutX="229.0" layoutY="53.0" prefHeight="288.0" prefWidth="357.0" style="-fx-border-color: #05071F; -fx-background-color: #05071F;" stylesheets="@style.css">
+        <columns>
+          <TableColumn fx:id="dispo" prefWidth="59.0" text="Available" />
+          <TableColumn fx:id="nbrj" prefWidth="73.0" text="Holidays" />
+            <TableColumn fx:id="years" prefWidth="97.0" text="working years" />
+            <TableColumn fx:id="salary" minWidth="7.0" prefWidth="70.0" text="Salary" />
+            <TableColumn fx:id="increase" prefWidth="56.0" text="Increase" />
+        </columns>
+      </TableView>
+      <TextField fx:id="disponibilite" layoutX="616.0" layoutY="90.0" />
+      <TextField fx:id="nombre" layoutX="616.0" layoutY="138.0" />
+      <TextField fx:id="year" layoutX="616.0" layoutY="197.0" />
+      <TextField fx:id="salaire" layoutX="616.0" layoutY="248.0" />
+      <TextField fx:id="incr" layoutX="616.0" layoutY="302.0" />
+      <Button fx:id="submit" layoutX="606.0" layoutY="367.0" mnemonicParsing="false" onAction="#submit" style="-fx-border-color: #2A73FF; -fx-border-radius: 5;" stylesheets="@style.css" text="submit" />
+      <Button fx:id="update" layoutX="717.0" layoutY="367.0" mnemonicParsing="false" onAction="#update" style="-fx-border-color: #2A73FF; -fx-border-radius: 5;" stylesheets="@style.css" text="update" />
+      <Button fx:id="delete" layoutX="212.0" layoutY="394.0" mnemonicParsing="false" onAction="#delete" prefHeight="27.0" prefWidth="195.0" style="-fx-border-color: #2A73FF; -fx-border-radius: 20;" stylesheets="@style.css" text="Delete Selected Employee" />
+      <Button fx:id="retour" layoutX="711.0" layoutY="14.0" mnemonicParsing="false" onAction="#retour" style="-fx-border-color: #2A73FF; -fx-border-radius: 20;" text="Cancel" />
+      <TableView fx:id="user" layoutX="27.0" layoutY="53.0" prefHeight="288.0" prefWidth="202.0" style="-fx-border-color: #05071F; -fx-background-color: #05071F;">
+        <columns>
+          <TableColumn fx:id="firstname" prefWidth="67.0" text="First Name" />
+          <TableColumn fx:id="lastname" prefWidth="72.0" text="Last Name" />
+            <TableColumn fx:id="cin" prefWidth="62.0" text="CIN" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
